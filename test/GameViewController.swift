@@ -76,6 +76,7 @@ class GameViewController: UIViewController {
         let scnView = self.view as SCNView
         
         // check what nodes are tapped
+        // test p1
         let p = gestureRecognize.locationInView(scnView)
         if let hitResults = scnView.hitTest(p, options: nil) {
             // check that we clicked on at least one object
